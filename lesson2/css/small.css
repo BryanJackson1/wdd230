@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 16px;
+    background-color:white;
+}
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+}
+
+header {
+    border-radius:15px;
+    margin: 1rem auto;
+    border: 3px solid #bbb;
+    padding: 0.5rem;
+    background-color: lightskyblue;
+    text-align: center;
+    
+}
+footer {
+    border-radius: 15px;
+    border: 3px solid #bbb;
+    background-color: lightskyblue;
+    text-align: center;
+}
+section{
+    border-radius:15px;
+    margin: 1rem auto;
+    border: 3px solid #bbb;
+}
+a{
+    padding: 1rem;
+}
+img{
+    padding: 1rem;
+    width: 100%;
+}
+h3{
+    background-color:aliceblue;
+    padding: 1rem;
+    border-radius:15px;
+}
+h4{
+    padding: 1rem; 
+}
+p{
+    padding:1rem;
+}

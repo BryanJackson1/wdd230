@@ -1,0 +1,19 @@
+@media screen and (min-width: 32.5em) {
+    body {
+        background-color:white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2em;
+        
+        
+    }
+    section{
+        background-color:#f0f0f0;
+    }
+    main section:nth-child(3){
+        grid-column: span 2;
+    }
+}
