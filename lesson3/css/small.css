@@ -52,18 +52,14 @@ img{
     padding: 1rem;
     width: 100%;
 }
-h2,h3{
-    
-    padding: 1rem;
-    border-radius:15px;
-}
 
-h4{
+
+p,
+ul,
+ol{
     padding: 1rem; 
 }
-p{
-    padding:1rem;
-}
+
 
 nav {
 	
@@ -83,9 +79,26 @@ nav ul li a {
 	font-size: 0.95rem;
     background-color: rgb(228, 239, 130);
     border-radius: 15px;
-    border: 2px solid rgb(39, 164, 54);
-
-	
+    border: 2px solid rgb(39, 164, 54);	
 }
+
+#backgroundcolor{
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+#navcolor{
+    background-color: rgb(228, 239, 130);;
+    padding: 1rem;
+}
+#navhovercolor{
+    background-color: #c6db51;
+    padding: 1rem;
+}
+#bordercolor{
+    border-radius: 15px;
+    border: 2px solid rgb(39, 164, 54);
+    padding: 1rem;
+}
+
 
 
