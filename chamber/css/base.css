@@ -13,7 +13,7 @@ header,
 main,
 footer,
 nav {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0.5rem auto;
     font-family: 'Merriweather', serif;
     justify-content: center;
@@ -128,3 +128,6 @@ nav a.navbtn::before {
 .responsive a.navbtn::before {
 	content: "❌ ";
 }
+ #join{
+    display: none;
+ }
