@@ -1,0 +1,18 @@
+@media screen and (min-width: 60em) {
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+
+
+nav li:first-child {
+    display: none;
+}
+
+}

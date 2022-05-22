@@ -14,7 +14,7 @@ main,
 footer,
 nav {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     font-family: 'Merriweather', serif;
     justify-content: center;
 }
@@ -23,7 +23,7 @@ nav {
 
 header  div{
     border-radius:15px;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     border: 3px solid rgb(39, 164, 54);
     padding: 0.5rem;
     background-color: whitesmoke;
@@ -32,6 +32,11 @@ header  div{
     display: grid;
     grid-template-columns: 1fr 3fr; 
     
+}
+header div span{
+    grid-column: 2/3;
+    background-color: darkgrey;
+    border-radius:15px;
 }
 
 header img,
@@ -44,15 +49,13 @@ main {
     border: 3px solid rgb(39, 164, 54);
     
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    
 }
 main div {
     background-color: whitesmoke;
     border-radius: 15px;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 3px;
 }
 footer {
@@ -61,12 +64,11 @@ footer {
     background-color: whitesmoke;
     text-align: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 3fr; 
+    
 }
 
-a{
-    padding: 1rem;
+footer img{
+    max-width: 40%;
 }
 
 nav ul li a:hover
@@ -80,9 +82,9 @@ img{
 
 
 p,
-ul,
-ol{
-    padding: 1rem; 
+ol
+{
+    padding: 0.5rem; 
 }
 
 
@@ -107,6 +109,22 @@ nav ul li a {
     border: 2px solid rgb(39, 164, 54);	
 }
 
+nav li:first-child {
+	display: block;
+}
 
+nav li {
+	display: none;
+}
 
+nav a.navbtn::before {
+	content: "☰ ";
+}
 
+.responsive li {
+	display: block;
+}
+
+.responsive a.navbtn::before {
+	content: "❌ ";
+}

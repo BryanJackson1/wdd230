@@ -1,8 +1,16 @@
 @media screen and (min-width: 32.5em) {
 
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 auto; } 
 
- 
+    main {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
 
 }
