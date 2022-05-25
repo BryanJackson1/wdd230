@@ -22,7 +22,7 @@
     #spotlights{
         grid-column: 3/4;
     }
-
+ 
     footer {
         display: grid;
         grid-template-columns: 1fr 3fr;

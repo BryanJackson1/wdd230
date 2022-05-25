@@ -79,7 +79,25 @@ img{
     padding: 1rem;
     width: 100%;
 }
+#hero img {
+    padding: 0;
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: 98%;
+    
 
+}
+#hero h2 {
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+#spotlights div img {
+    width: 50%;
+    padding: 0.5;
+    border-radius: 25px;
+   
+}
 
 p,
 ol
@@ -97,7 +115,8 @@ nav ul {
 	list-style-type: none;
 	overflow: hidden;
 }
-nav ul li a {
+nav ul li a,
+#hero a{
 	display: block;
 	color: black;
 	text-align: center;
@@ -108,7 +127,15 @@ nav ul li a {
     border-radius: 15px;
     border: 2px solid rgb(39, 164, 54);	
 }
-
+#hero{
+    position: relative;
+}
+#hero a {
+max-width: 13em;
+position: absolute;
+bottom: 20%;
+right: 10%;
+}
 nav li:first-child {
 	display: block;
 }
@@ -129,5 +156,13 @@ nav a.navbtn::before {
 	content: "❌ ";
 }
  #join{
+    display: none;
+ }
+
+ #invite{
+    background-color: rgb(228, 239, 130);
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid rgb(39, 164, 54);
     display: none;
  }
