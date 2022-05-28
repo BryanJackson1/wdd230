@@ -16,8 +16,8 @@
     <header>
         <p id="invite">Come join us for the chamber meet and greet Wednesday at 7:00 p.m. !!!</p>
         <div>
-           
-                
+
+
             <img src="images/logo-casa.svg" alt="Chamber of Commerce Logo">
             <h1>Skagit Chamber of Commerce</h1>
             <span id="date"></span>
@@ -39,7 +39,12 @@
     <main>
         <div id="hero">
             <h2>Welcome to Skagit</h2>
-            <img src="images/farm_cow.jpg" alt="">
+            <picture>
+                <source media="(min-width:901px)" srcset="images/wdd230-org800.jpg">
+                <source media="(min-width:600px) and (max-width:900px)" srcset="images/wdd230-org1200.jpg">
+                <img src="images/wdd230-org400.jpg" alt="Cow Pasture">
+            </picture>
+
             <a href="join.html">Join the Skagit Chamber</a>
         </div>
         <div id="news">
@@ -53,10 +58,10 @@
 
         <div id="weather">
             <h2>Weather</h2>
-            <p id="temp">33 °C</p>
+            <p> <span id="temp">33</span> ° F</p>
             <p id="sky">Partly Cloudy</p>
-            <p>Wind Speed: 1.5 mph</p>
-            <p>Wind Chill: tbc</p>
+            <p>Wind Speed: <span id="speed">5</span> mph</p>
+            <p>Wind Chill: <span id="chill"></span></p>
         </div>
         <div id="event">
             <h2>Grand Opening</h2>
@@ -108,6 +113,7 @@
 
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
