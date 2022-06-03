@@ -1,0 +1,29 @@
+body {
+    max-width: 800px;
+    margin: 0.5rem auto;
+
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+}
+
+picture {
+    padding: 2rem;
+    display: block;
+    background-color: antiquewhite
+}
+/* images with a data-src atribute are blurred */
+img[data-src] {
+    filter: blur(0.4em);
+}
+
+img {
+    margin: auto;
+    display: block;
+    /* once the java script removes the data-src atribute it is not blurred.*/
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
