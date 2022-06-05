@@ -7,26 +7,36 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
     }
-    #hero{
+
+    #hero {
         grid-column: 1/4;
     }
-    #news{
+
+    #news {
         grid-column: 1/4;
     }
+
     #event{
         grid-column: 1/3;
     }
-    #weather{
+
+    #weather,
+    #discover{
         grid-column: 1/4;
     }
-    #spotlights{
+
+    #spotlights,
+    #gallery {
         grid-column: 3/4;
     }
- 
+
     footer {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
+    #gallery div:hover {
+     background-color: #c6db51;
+    }
 
 }

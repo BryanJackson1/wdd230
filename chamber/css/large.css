@@ -35,7 +35,8 @@ main{
     grid-column: 1/2;
     grid-row: 2/3;
 }
-#spotlights{
+#spotlights,
+#gallery{
     grid-column: 4/5;
     grid-row: 1/4;
 }

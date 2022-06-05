@@ -23,14 +23,14 @@ nav {
 
 header  div{
     border-radius:15px;
-    margin: 0.5rem auto;
+    margin: 0.3rem auto;
     border: 3px solid rgb(39, 164, 54);
-    padding: 0.5rem;
+    padding: 0.3rem;
     background-color: whitesmoke;
     text-align: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 3fr; 
+    grid-template-columns: 1fr 3fr auto auto; 
     
 }
 header div span{
@@ -39,10 +39,18 @@ header div span{
     border-radius:15px;
 }
 
+.facebook{
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+.linkedin{
+    grid-column: 4/5;
+}
 header img,
 footer img {
 width: 70%;
 }
+
 
 main {
     border-radius: 15px;
@@ -68,7 +76,11 @@ footer {
 }
 
 footer img{
-    max-width: 40%;
+    max-width: 100%;
+}
+footer iframe{
+    width: 90%;
+    height:auto;
 }
 
 nav ul li a:hover
@@ -166,3 +178,13 @@ nav a.navbtn::before {
     border: 2px solid rgb(39, 164, 54);
     display: none;
  }
+
+ .facebook{
+    grid-column: 3/4;
+    grid-row:1/2;
+    width: 100%;
+}
+.linkedin{
+    grid-column: 4/5;
+    width: 100%;
+}
