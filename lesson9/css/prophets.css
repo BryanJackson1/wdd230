@@ -1,0 +1,40 @@
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+
+}
+h1{
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+  }
+
+  section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color:bisque;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  img {
+      max-width: 85%;
+      box-shadow: 10px 10px 10px 0 gray;
+      border-radius: 1rem;
+      margin: 12px;
+  }
+  h2{
+      margin: auto;
+  }
+  p{
+      margin: 0 auto;
+      padding-top: 0.3rem;
+  }
