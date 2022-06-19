@@ -43,36 +43,33 @@
 
     </header>
     <main>
-        <div id="discover">
-            <h2>Discover Skagit!</h2>
-            <p>Welcome to our place. You can keep your shoes on. We're not picky. 
-                Situated in the rural pacific northwest, skagit has a wonderful charm all its own. 
-                From fishing to farming to hunting to tulip festivals, we have so much to offer. 
-                Take a stroll through some of the sights and try on our great local attractions. 
-                Here you'll find all the ways we in Skagit say: "Take off your coat and stay a while." </p>
+        <div id="membership">
+            <h2>Join the Skagit Chamber of Commerce!</h2>
+            <p>The Skagit Chamber of Commerce is a valuable resource for your business. 
+                You will find ways to increase foot trafic and online exposure. The business
+            relationships you will cultivate as a member will pay off now and in the future! </p>
         </div>
-        <div id="gallery">
-            <div>
-                <img src="images/Farm.jpeg" alt="farm" loading="lazy">
-                <p>Sample fresh local produce from our many farms</p>
-            </div>
-            <div>
-                <img src="images/Scenic.jpg" alt="scenic vistas" loading="lazy">
-                <p>Explore the scenic vistas of our wonderful area!</p>
-            </div>
-            <div>
-                <img src="images/town.jpg" alt="restaurant" loading="lazy">
-                <p>Browse our wonderful shops and restaurants!</p>
-            </div>
-            <div>
-                <img src="images/skagit_river.jpeg" alt="skagit river" loading="lazy">
-                <p>Fishing or boating, the skagit river is where it's at!</p>
-            </div>
-            <div>
-                <img src="images/Tulips.jpg" alt="Tulips" loading="lazy">
-                <p>Put the famous tulip festival on your calendar and drink in the beauty!</p>
-            </div>
-        </div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Member Information</legend>
+                <input class="formdate" type="hidden" name="formdate" value="">
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Your Title <input type="text" name="title" pattern="[A-Za-z0-9 _]{7,20}"></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label>Cell Phone* <input type="tel" name="phone" placeholder="12223334444" required></label>
+                <label>Business Name <input type="text" name="business" required></label>
+                <label>Business Description  <input type="text" name="description" style="height:5rem; width:20rem;"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="level" value="Non Profit">Non Profit <p>Free Membership. Newsletter and Directory access.</p></label>
+                <label><input type="radio" name="level" value="Bronse">Bronze <p>$10 per month. Full web access and listed in Directory</p></label>
+                <label><input type="radio" name="level" value="Silver">Silver <p>$20 per month. Featured once a year in newsletter.</p></label>
+                <label><input type="radio" name="level" value="Gold">Gold <p>$30 per month. Featured quarterly in the newsletter. Free add yearly.</p></label>
+            </fieldset>
+            <input class="submit" type="submit" value="Apply For Membership">
+        </form>
     </main>
     <footer>
         <img src="images/logo-casa.svg" alt="Chamber of Commerce Logo">
@@ -91,7 +88,6 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
 </body>
 
 </html>

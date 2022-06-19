@@ -24,6 +24,10 @@
     #discover{
         grid-column: 1/4;
     }
+    #join {
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
 
     #spotlights,
     #gallery {
@@ -38,5 +42,13 @@
     #gallery div:hover {
      background-color: #c6db51;
     }
-
+    form{
+        grid-column: 1/5;
+    }
+    form p {
+        display: block;
+    }
+    form label input {
+        align-items: left;
+    }
 }

@@ -21,7 +21,8 @@ nav {
 
 
 
-header  div{
+header  div,
+label{
     border-radius:15px;
     margin: 0.3rem auto;
     border: 3px solid rgb(39, 164, 54);
@@ -33,7 +34,7 @@ header  div{
     grid-template-columns: 1fr 3fr auto auto; 
     
 }
-header div span{
+header div p{
     grid-column: 2/3;
     background-color: darkgrey;
     border-radius:15px;
@@ -83,7 +84,8 @@ footer iframe{
     height:auto;
 }
 
-nav ul li a:hover
+nav ul li a:hover,
+.submit:hover
 {     
     background-color: #c6db51;    
 }
@@ -106,19 +108,21 @@ img{
 
 #spotlights div img {
     width: 50%;
-    padding: 0.5;
+    padding: 0.5rem;
     border-radius: 25px;
    
 }
 
 p,
-ol
+ol,
+input
 {
-    padding: 0.5rem; 
+    padding: 0.3rem; 
 }
 
 
-nav {
+nav
+{
 	
 	margin: 0 auto;
 	max-width: 780px;
@@ -128,7 +132,9 @@ nav ul {
 	overflow: hidden;
 }
 nav ul li a,
-#hero a{
+.submit,
+#hero a,
+form{
 	display: block;
 	color: black;
 	text-align: center;
@@ -187,4 +193,19 @@ nav a.navbtn::before {
 .linkedin{
     grid-column: 4/5;
     width: 100%;
+}
+
+form {
+    margin: 1rem auto ;
+    max-width: 40rem;
+}
+form input{
+    justify-content: left;
+}
+form p {
+    display: none;
+}
+#membership,
+#thanks {
+    grid-column: 1/5;
 }
