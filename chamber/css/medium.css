@@ -48,7 +48,4 @@
     form p {
         display: block;
     }
-    form label input {
-        align-items: left;
-    }
 }
