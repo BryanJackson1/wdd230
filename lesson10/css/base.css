@@ -1,0 +1,19 @@
+body {
+    max-width: 800px;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+h1 ,
+h2{
+    background-color:aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+p,
+figcaption{
+    font-size: x-large;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 1rem;
+}

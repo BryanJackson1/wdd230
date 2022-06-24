@@ -1,0 +1,94 @@
+{
+    "members": [
+        {
+            "name": "Leon's Farm and Ranch",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "LeonsFnR.com",
+            "img": "images/tractor.png",
+            "level": "2",
+            "slogan": "We have all the junk you need!",
+            "email": "Leon@LeonsFnR.com"
+        },
+        {
+            "name": "Shirley's Stained Glass",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "ShirleysGlass.com",
+            "img": "images/Stained_Glass.png",
+            "level": "4",
+            "slogan": "Classes on Glasses!",
+            "email": "Hello@ShirleysGlass.com"   
+        },
+        {
+            "name": "Joe's Welding",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "JoesWeldingInSkagit.com",
+            "img": "images/Welder.png",
+            "level": "3",
+            "slogan": "You break it, we weld it!",
+            "email": "Joe@JoesWeldingInSkagit.com"
+        },
+        {
+            "name": "Bryan's Book Barn",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "BryansBookBarn.com",
+            "img": "images/book.png",
+            "level": "1",
+            "slogan": "Reading is Retro!",
+            "email": "Bryan@BryansBookBarn.com"   
+        },
+        {
+            "name": "Harry's Ham Shack",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "HarrysHamShack.com",
+            "img": "images/radio.png",
+            "level": "2",
+            "slogan": "CQ The World!",
+            "email": "Harry@HarrysHamShack.com"
+        },
+        {
+            "name": "Dolly's Dress Dump",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "DollysDressDump.com",
+            "img": "images/dress.png",
+            "level": "4",
+            "slogan": "The Clothes Make the Plan",
+            "email": "Dolly@DollysDressDump.com"
+        },
+        {
+            "name": "Al's Alliterative Antiques",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "AlsAntiques.com",
+            "img": "images/antique.png",
+            "level": "2",
+            "slogan": "All the Antiques Available!",
+            "email": "Al@AlsAntiques.com"
+        },
+        {
+            "name": "Tims Terrible Time",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "TimsTerribleTime.com",
+            "img": "images/clock.png",
+            "level": "4",
+            "slogan": "Clock Repair you can Count on!",
+            "email": "Tim@TimsTerribleTime.com"
+        },
+        {
+            "name": "Aimee's Arguments",
+            "address": "905 Apache Dr. Mt Vernon",
+            "phone": "1-999-999-9999",
+            "web": "AimeesArguments.com",
+            "img": "images/speaking.png",
+            "level": "3",
+            "slogan": "Legal Help for the masses!",
+            "email": "Aimee@AimeesArguments.com"
+        }
+    ]
+}
