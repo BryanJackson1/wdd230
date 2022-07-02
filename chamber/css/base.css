@@ -206,6 +206,23 @@ form p {
     display: none;
 }
 #membership,
-#thanks {
+#thanks,
+#directoryHead {
     grid-column: 1/5;
 }
+.directory {
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+  }
+
+  section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
