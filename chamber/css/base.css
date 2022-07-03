@@ -226,3 +226,10 @@ form p {
     align-items: center;
     border-radius: 1rem;
   }
+
+  #weather img {
+      max-width: 100px;
+      padding:0;
+      margin: 0;
+    
+  }
