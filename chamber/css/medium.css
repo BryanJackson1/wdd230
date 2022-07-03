@@ -21,7 +21,9 @@
     }
 
     #weather,
-    #discover{
+    #discover,
+    #contact,
+    #contactMain{
         grid-column: 1/4;
     }
     #join {
@@ -30,7 +32,8 @@
     }
 
     #spotlights,
-    #gallery {
+    #gallery,
+    #contactList {
         grid-column: 3/4;
     }
 

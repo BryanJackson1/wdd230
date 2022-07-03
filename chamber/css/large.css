@@ -36,7 +36,8 @@ main{
     grid-row: 2/3;
 }
 #spotlights,
-#gallery{
+#gallery,
+#contactList{
     grid-column: 4/5;
     grid-row: 1/4;
 }
@@ -48,4 +49,5 @@ main{
 #membership{
     grid-column: 1/5;
 }
+    
 }

@@ -9,7 +9,7 @@ const day = currentDate.getDay();//extract the day from todays date
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);//format
 
 document.querySelector('#date').textContent = fulldateUK;//push date to document
-document.querySelector('.formdate value').textContent = fulldateUK;//puch date to form submission hidden tag
+//document.querySelector('.formdate value').textContent = fulldateUK;//puch date to form submission hidden tag
 document.querySelector('#year').textContent = currentDate.getFullYear();//push year to document
 
 const navbutton = document.querySelector('.navbtn');
