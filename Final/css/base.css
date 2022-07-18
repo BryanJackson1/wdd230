@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   padding: 1rem;
+    margin: 1rem auto;
+    background-color: white;
+    max-width: 80rem;
+   
+}
+
+header {
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 25%;
+    padding: 1rem;
+}
+
+header .facebook,
+header .pinterest {
+    width: 150px;
+    position: absolute;
+    right: -90px;
+    bottom: -10px;
+}
+
+header .pinterest {
+    right: -40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    flex: 1 1 auto;
+    border: 2px solid black;
+    background-color: #87A1BF;
+    text-align: center;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    overflow: hidden;
+}
+
+.sub {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2,
+h3,
+main p,
+main ul,
+footer {
+
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 2px 2px #816545;
+}
+
+h2,
+h3 {
+    margin-top: 1.5rem;
+    background-color: #87A1BF;
+}
+
+main p,
+main ul {
+    background-color: white;
+    margin-top: 0.2rem;
+}
+
+.feature img {
+    margin: 1rem;
+    width: 90%;
+    box-shadow: 8px 8px 8px gray;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+footer iframe {
+    width: 90%;
+    height: auto;
+    padding: 0.3rem;
+}
+
+footer p {
+    padding: 0.2rem;
+}
