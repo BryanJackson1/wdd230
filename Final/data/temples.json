@@ -1,0 +1,48 @@
+{
+    "temples": [
+        {
+            "name": "Anchorage Alaska",
+            "address": "13161 Brayton Dr, Anchorage AK 99516, United States",
+            "phone": "(1) 907-348-7890",
+            "email": "Not Available", 
+            "schedule": "By appointment",
+            "closures": "Monday, 5 September 2022; Monday, 19 September 2022 - Friday, 30 September 2022; Saturday, 1 October 2022 - Sunday, 2 October 2022; Thursday, 24 November 2022; Saturday, 24 December 2022 - Sunday, 25 December 2022; Saturday, 31 December 2022 - Sunday, 1 January 2023",
+            "img": "images/anchorage.jpeg", 
+            "services": "No services",
+            "history": "4 October 1997: Announced; 17 April 1998: Groundbreaking; 9 January 1999: Dedicated; 8 February 2004: Rededicated"
+        },
+        {
+            "name": "Draper Utah",
+            "address": "14065 Canyon Vista Ln, Draper UT 84020-5626, United States",
+            "phone": "(1) 801-576-4240",
+            "email": "Not Available", 
+            "schedule": "By appointment",
+            "closures": "Monday, 29 August 2022 - Monday, 12 September 2022; Saturday, 1 October 2022; Wednesday, 23 November 2022 (Limited Operations); Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
+            "img": "images/draper.jpeg",
+            "services": "Clothing rental, Distribution center nearby",
+            "history": "2 October 2004: Announced; 5 August 2006: Groundbreaking; 20 March 2009: Dedicated"
+        },
+        {
+            "name": "Las Vegas Nevada",
+            "address": "827 Temple View Dr, Las Vegas NV 89110-2920, United States",
+            "phone": "(1) 702-452-5011",
+            "email": "Not Available", 
+            "schedule": "By appointment",
+            "closures": "Monday, 11 July 2022 - Monday, 25 July 2022; Saturday, 1 October 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
+            "img": "images/las_vegas.jpg",
+            "services": "Clothing rental, Distribution center nearby",
+            "history": "7 April 1984: Announced; 30 November 1985: Groundbreaking; 16 December 1989: Dedicated"
+        },
+        {
+            "name": "San Diego California",
+            "address": "7474 Charmant Dr, San Diego CA 92122-5000, United States",
+            "phone": "(1) 858-622-0991",
+            "email": "Not Available", 
+            "schedule": "By appointment",
+            "closures": "Saturday, 1 October 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
+            "img": "images/san_diego_300.jpg",
+            "services": "Clothing rental, Distribution center nearby",
+            "history": "7 April 1984: Announced; 27 February 1988: Groundbreaking; 25 April 1993: Dedicated"
+        }
+    ]
+}
