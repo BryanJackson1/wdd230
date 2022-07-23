@@ -25,7 +25,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="temples.html">Temples</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
+            <li class="current"><a href="reservations.html">Reservations</a></li>
             <li class="pri"><a href="services.html">Services</a></li>
             <li class="sub"><a href="receptions.html">Receptions</a></li>
             <li class="sub"><a href="missionaries.html">Missionaries</a></li>
@@ -42,33 +42,24 @@
                 We have free changing rooms and low cost child care available to any temple patron, so even if you are
                 not staying with us please keep us in mind.</p>
         </div>
-        <div class="feature">
-            <h2>Featured Temple</h2>
+        <div class="form">
+            <h2>Book a Room</h2>
             <form method="get" action="thankyou.html">
                 <fieldset>
-                    <legend>Member Information</legend>
-                    <input class="formdate" type="hidden" name="formdate" value="">
+                    <legend>Personal Information</legend>
                     <label>First Name* <input type="text" name="fname" required></label>
                     <label>Last Name* <input type="text" name="lname" required></label>
-                    <label>Your Title <input type="text" name="title" pattern="[A-Za-z0-9 _]{7,20}"></label>
                     <label>Email* <input type="email" name="email" placeholder="someone@email.com" required></label>
                     <label>Cell Phone* <input type="tel" name="phone" placeholder="12223334444" required></label>
-                    <label>Business Name <input type="text" name="business" required></label>
-                    <label>Business Description <input type="text" name="description"
-                            style="height:5rem; width:20rem;"></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Membership Level</legend>
-                    <label><input type="radio" name="level" value="Non Profit">Non Profit </label>
-                    <p>Free Membership. Newsletter and Directory access.</p>
-                    <label><input type="radio" name="level" value="Bronse">Bronze </label>
-                    <p>$10 per month. Full web access and listed in Directory</p>
-                    <label><input type="radio" name="level" value="Silver">Silver </label>
-                    <p>$20 per month. Featured once a year in newsletter.</p>
-                    <label><input type="radio" name="level" value="Gold">Gold </label>
-                    <p>$30 per month. Featured quarterly in the newsletter. Free add yearly.</p>
+                    <legend>Room Information</legend>
+                    <label><input type="radio" name="type" value="Short Term">Short Term: For stays shorter than three weeks</label>
+                    <label><input type="radio" name="type" value="Long Term">Long Term: For stays longer than three weeks</label>
+                    <label><input type="date" id="starting" name="Starting Date" required>Starting Date*</label>
+                    <label><input type="date" id="ending" name="Ending Date" required>Ending Date*</label>
                 </fieldset>
-                <input class="submit" type="submit" value="Apply For Membership">
+                <input class="submit" type="submit" value="Make your reservation">
             </form>
         </div>
 
